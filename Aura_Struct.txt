@@ -1,0 +1,39 @@
+ [StructLayout(LayoutKind.Sequential)]
+    public struct AuraEntry
+    {
+        public uint unknown_0x00;
+        public uint unknown_0x04;
+        public uint unknown_0x08;
+        public uint unknown_0x0C;
+        public uint unknown_0x10;
+        public uint unknown_0x14;
+        public uint unknown_0x18;
+        public uint unknown_0x1c;
+        public uint unknown_0x20;
+        public uint unknown_0x24;
+        public uint unknown_0x28;
+        public uint unknown_0x2c;
+        public uint unknown_0x30;
+        public uint unknown_0x34;
+        public uint unknown_0x38;
+        public uint unknown_0x3c;
+        public uint unknown_0x40;
+        public uint unknown_0x44;
+        public CGGuid128 CasterGuid;        //0x48 0x4c 0x50 0x54
+        public uint unknown_0x58;           //0x58  added 24931
+        public uint unknown_0x5c;           //0x5c  added 24931
+        public uint unknown_0x60;           //0x60  added 24931
+        public uint unknown_0x64;           //0x64  added 24931
+        public int AuraId;                  //0x68
+        public uint Unknown_0x6c;           //0x6c
+        public byte Flags;                  //0x70
+        public byte StackCount;             //0x74
+        public byte unknown_0x78;           //0x78
+        public byte Level;                  //0x7c
+        public uint DurationMS;             //0x80
+        public uint EndMS;                  //0x84
+        public uint unknown_0x88;           //0x88
+        public uint unknown_0x8c;           //0x8c
+        public uint unknown_0x90;           //0x90
+        public uint unknown_0x94;           //0x94       
+    }
